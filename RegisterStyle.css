@@ -30,7 +30,7 @@ header .links b {
 }
 
 nav {
-  background-color: #3fb550;
+  background-color: #a1e5c6;
   width: auto;
   height: 33px;
   padding: auto;
@@ -117,7 +117,7 @@ aside#right div {
   margin-left: 35px;
   margin-bottom: 10px;
 }
-aside#right h3 {
+aside#right h4 {
   color: white;
   background-color: #007acc;
   border: 1px solid black;
@@ -138,43 +138,71 @@ aside#right div#access p {
   padding: 5px;
   font-weight: bold;
 }
+label {
+  width: 150px;
+  text-align: left;
+}
 
 section h4 {
   color: white;
   background-color: #007acc;
-  border: 3px solid black;
+  border: 2px solid black;
   width: auto;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
-section div {
-  border: dotted;
+section div#a {
+  border: 1px solid whitesmoke;
+  width: 700px;
+  height: 680px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #c7e5f2;
+}
+div#personal fieldset#personal {
+  width: 600px;
+  height: 350px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+td {
+  padding: 10px;
+}
+div#personal fieldset#personal td#label {
+  padding-right: 220px;
+}
+form input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
   width: 250px;
-  height: 300px;
-  font-size: 20px;
-  text-align: center;
-  display: inline-table;
-  margin-top: 15px;
-  background-color: lightblue;
-}
-section div#middle {
-  margin-left: 55px;
-  margin-right: 55px;
-}
-section div p {
-  padding: 8px;
-}
-section img {
-  width: 150px;
-  height: 200px;
-}
-section button img {
   height: 30px;
 }
-
+div#credential fieldset#credential {
+  width: 600px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+div#credential fieldset#credential td label {
+  padding-right: 160px;
+}
+div#button {
+  padding: 10px;
+  text-align: center;
+}
+button {
+  border-radius: 3px;
+  width: 70px;
+  margin-right: 25px;
+  height: 30px;
+  background-color: #007acc;
+}
 footer {
-  background-color: #3fb550;
+  background-color: #79b22f;
   text-align: center;
 }
